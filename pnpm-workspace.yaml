@@ -1,0 +1,11 @@
+packages:
+  - .
+
+allowBuilds:
+  esbuild: true
+  onnxruntime-node: false
+  protobufjs: false
+
+minimumReleaseAgeExclude:
+  - '@types/node@26.6.6'
+  - lucide-react@1.64.0
